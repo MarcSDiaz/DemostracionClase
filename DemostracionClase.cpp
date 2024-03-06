@@ -44,10 +44,10 @@ void Cachorro::presentarse(){
 int main()
 {
     Animal leon("Alex","Africa");
-    Cachorro gato("Yumi","Canada",5);
+    Cachorro Perrito("Yumi","Canada",5);
     leon.hablar();
     cout<<endl;
-    gato.presentarse();
+    Perrito.presentarse();
     system("pause");
     return 0;
 };
